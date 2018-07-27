@@ -1,5 +1,5 @@
 
-FROM node:corbon  #official image from node.js
+FROM node:carbon  #official image from node.js
 WORKDIR /user/src/app
 COPY package*.json ./  #coppy files i to the docker image in WORKDIR
 RUN npm install   #dowlad all dependensies for app to run
